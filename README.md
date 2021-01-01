@@ -36,8 +36,6 @@ public static void main(String args[]) throws IOException
  
 }
 
-
-
 Database performance can be improved beyond connection pooling. Replication, load balancing, and in-memory caching can contribute to efficient database performance.
 
 If a web service is designed to make a lot of read and write queries to a database, then you have multiple instances of a Postgres database in place to take care of write queries from clients through a load balancer such as pgpool-II while in-memory caching can be used to optimize read queries.
